@@ -1,16 +1,14 @@
-### Hi there 👋
+# soul
+一款简洁，交互友好的项目管理系统。
 
-<!--
-**jitask/jitask** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+##### 演示地址
+Jitask 项目管理系统：https://jitask.com
 
-Here are some ideas to get you started:
+##### 架构
+golang + vue
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+##### 开发计划
++ saas 部署，用户零成本使用
++ 升级 vue 3.x
++ 升级 gRPC 微服务
++ 强化 gin 接口层验证
