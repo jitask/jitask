@@ -8,7 +8,7 @@ Jitask 项目管理系统：https://jitask.com
 golang + vue
 
 ##### 开发计划
-+ saas 部署，用户零成本使用
++ 使用 saas 部署
 + 升级 vue 3.x
 + 升级 gRPC 微服务
 + 强化 gin 接口层验证
