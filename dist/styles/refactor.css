@@ -1,0 +1,78 @@
+.right-container { padding: 10px;-webkit-flex: 0 0 auto;flex: 0 0 auto;min-width: 666px;width: 100%;border-radius: 3px;flex-direction: column;display: flex;min-height: 100%; }
+.right-container-inner { flex-direction: column;display: flex;min-height: 100%;width: 100%; }
+
+.border { border: 1px solid #e8e8e8; }
+.i-table .bbox { border: 1px solid #eef2f7 !important; }
+.flex { display: -webkit-flex;display: flex; }
+.flex-row { display: -webkit-flex;display: flex;-webkit-flex-direction: row;flex-direction: row; }
+.flex-column { display: -webkit-flex;display: flex;-webkit-flex-direction: column;flex-direction: column; }
+.align-items-center { -webkit-align-items: center;align-items: center; }
+.justify-content-center { justify-content: center;-webkit-justify-content: center; }
+.align-items-flex-end { -webkit-align-items: flex-end;align-items: flex-end; }
+.justify-content-flex-end { justify-content: flex-end;-webkit-justify-content: flex-end; }
+.flex-wrap { flex-wrap: wrap;-webkit-flex-wrap: wrap; }
+
+/*bootstrap 样式重写*/
+.rightMain .table-bordered { border: 1px solid #e7ecf1; }
+.com-outline .dropdown button { font-size: 16px; }
+.popover .popover-body { padding: 0; }
+.b-sidebar-header strong { font-size: 1rem;font-weight: bold; }
+
+.modal-dialog .form-group label { font-size: 15px; }
+.form-group.required label:after { content: "*";color: #ff0000; }
+
+div.popover { border: 1px solid #e7ebf0;box-shadow: 0 0 35px 0 rgba(154 161 171 0.15);background-color: #ffffff; }
+div.bs-popover-bottom > div.arrow::before, div.bs-popover-auto[x-placement^="bottom"] > div.arrow::before {
+    border-bottom-color: #e7ebf0;
+}
+
+.field-cell-time .form-control { border: none; }
+.form-control.focus,
+.form-control:focus,
+.custom-select:focus,
+.btn:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.form-control:focus,
+.custom-select:focus {
+    border: 1px solid #17C4BB !important;
+}
+.btn.btn-submit {
+    color: #f8f8f8;
+    background-color: #2DCCD3;
+    border-color: #2DCCD3;
+}
+.btn.btn-submit:hover {
+    color: #ffffff;
+    background-color: #2ABDC7;
+    border-color: #2ABDC7;
+}
+
+/*#toolbarContainer .fr-separator.fr-vs { margin: 4px; }*/
+/*#toolbarContainer .fr-toolbar .fr-command.fr-btn, #toolbarContainer .fr-popup .fr-command.fr-btn, #toolbarContainer .fr-modal .fr-command.fr-btn { margin: 0 2px;color: #666666; }*/
+/*#toolbarContainer .fr-toolbar .fr-btn-grp { margin: 0; }*/
+/*#toolbarContainer .fr-toolbar { background: inherit;border: none; }*/
+/*#toolbarContainer .fr-toolbar .fr-newline { margin: 0;height: 0; }*/
+/*#scrollable_container .fr-box,.fr-wrapper { flex: 1;flex-direction: column;display: flex; }*/
+/*#scrollable_container .fr-element.fr-view { margin: 0 30px 20px 30px;padding: 10px 30px 20px 30px;height: 1200px; }*/
+/*#scrollable_container .fr-second-toolbar { flex: 0 0 auto; }*/
+/*#toolbarContainer > div { display: block!important; }*/
+
+#article table,#article th,#article td { border: 1px solid #e8e8e8; }
+#article td { line-height: 30px;padding: 0 5px; }
+/*#scrollable_container .fr-box.fr-inline > .fr-wrapper > div:not(.fr-element) { display: none; }*/
+/*#scrollable_container .fr-box.fr-inline > .fr-wrapper > div:not(.fr-view) { display: none; }*/
+
+/*#desc_scrollable_container .fr-box.fr-inline > .fr-wrapper > div:not(.fr-element) { display: none; }*/
+/*#desc_scrollable_container .fr-box.fr-inline > .fr-wrapper > div:not(.fr-view) { display: none; }*/
+#addTaskContainer img { width: 98%; }
+
+#toolbarContainer .ck.ck-toolbar,#taskToolBar .ck.ck-toolbar,#addTaskToolBar .ck.ck-toolbar { border: none;padding: 0;border-radius: 5px; }
+#bodyContainer .ck-content.ck-editor__editable { box-shadow: none;flex: 1;margin: 0;border: 1px #ffffff solid;background-color: #fff; }
+#taskDescContainer .ck-content.ck-editor__editable,
+#addTaskContainer .ck-content.ck-editor__editable { box-shadow: none;flex: 1;margin: 0;border-radius: 3px;border: none; }
+
+div.ck-content blockquote { border-radius: 3px;overflow: hidden;padding: 0.5em 1em;margin-left: 0;margin-right: 0;border: 1px solid #f0f0f0;background-color: #f8f8f8;font-style: normal; }
+
+#modal-issue-content .modal-body { padding: 0; }
