@@ -37,6 +37,7 @@ div.table-row { flex: 0 1 auto;display: flex;border-bottom: 1px solid #eef2f7; }
 div.table .th { width: 100px;padding: 10px 0 10px 20px;font-size: 12px;flex: 1 1 auto; }
 div.table .td { width: 100px;padding: 10px 0 10px 20px;flex: 1 1 auto; }
 div.table .op { flex: 0 0 100px; }
+div.table .op-sm { flex: 0 0 80px; }
 div.table .op-big { flex: 0 0 120px; }
 div.table .op-big a, .table .op-big span { padding-right: 10px;outline: none;text-decoration: none; }
 
