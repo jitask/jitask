@@ -5,10 +5,10 @@
 Jitask 项目管理系统：https://jitask.com
 
 ##### 架构
-golang + vue
+golang 1.17 + vue 3.x
 
 ##### 开发计划
-+ 使用 saas 部署
-+ 升级 vue 3.x
-+ 升级 gRPC 微服务
 + 强化 gin 接口层验证
++ 权限管理完善
++ 任务、人员、项目报表管理
++ saas 部署，免费使用
